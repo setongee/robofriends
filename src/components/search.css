@@ -1,0 +1,11 @@
+input{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+input:focus{
+    border: 1px solid burlywood; 
+}
+
+.input{
+    width: 25%;
+} 

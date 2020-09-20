@@ -1,0 +1,24 @@
+.bg{
+    margin: 0;
+    padding: 50px;
+}
+
+.mg{
+    margin: 0;
+    color: burlywood;
+    text-transform: lowercase;
+    font-family: montserrat;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+    width: 93%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
