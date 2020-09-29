@@ -41,7 +41,7 @@ class App extends Component {
                
                 <div className = 'header'>
                     <h1 className = 'mg'> robots.io</h1>
-                    <SearchBar onSearch = {this.onSearchChange}/>
+                    <SearchBar onSearch = {this.onSearchChange} placeholder = "Search for robots by name here"/>
                 </div>
 
                 <CardList robots={filterRobots} />

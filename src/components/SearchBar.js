@@ -1,13 +1,13 @@
 import React from 'react';
 import './search.css'
 
-const SearchBar = ( { onSearch } ) => {
+const SearchBar = ( { onSearch, placeholder } ) => {
 
     return (
         <div className = 'input'>
             <input
                 type='search' 
-                placeholder='Search for robots by name here'
+                placeholder= {placeholder}
                 onChange = {onSearch}
                 style = {
                     {
